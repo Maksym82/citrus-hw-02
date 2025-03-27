@@ -23,7 +23,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #493f3f;
   background-color: #fff;
 }
 
@@ -71,7 +71,7 @@ input {
 
 /* Container */
 [class*="__container"] {
-  max-width: 320px;
+  max-width: 635px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -88,4 +88,65 @@ input {
     max-width: 1280px;
     padding: 0 30px;
   }
+}
+
+/* Main styles */
+
+.fashion {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.swiper {
+  padding: 17px 0 31px 0;
+  border: 1px solid black;
+}
+
+.discount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5c3c35;
+  gap: 36px;
+}
+
+.discount::before,
+.discount::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-color: #5c3c35;
+  border-radius: 50%;
+}
+
+.discount::before {
+  top: 0;
+  right: 31px;
+}
+
+.discount::after {
+  bottom: 0;
+  right: 31px;
+}
+
+.discount div {
+  width: 11px;
+  height: 11px;
+  background-color: #5c3c35;
+  border-radius: 50%;
+}
+
+.discount__text {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.58em;
+  text-transform: uppercase;
+}
+
+.discount__percent {
+  font-weight: 900;
+  font-size: 65px;
 }
