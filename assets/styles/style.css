@@ -119,7 +119,7 @@ input {
   color: #5c3c35;
   gap: 36px;
   margin-left: 148px;
-  margin-bottom: 114px;
+  margin-bottom: 55px;
 }
 
 .discount::before,
@@ -162,7 +162,8 @@ input {
   font-size: 65px;
 }
 
-/* .fashion__image {
-  display: block;
-  margin: auto;
-} */
+.fashion__title {
+  text-transform: uppercase;
+  margin-left: 107px;
+  margin-bottom: 23px;
+}
