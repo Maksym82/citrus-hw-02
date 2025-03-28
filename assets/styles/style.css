@@ -167,3 +167,55 @@ input {
   margin-left: 107px;
   margin-bottom: 23px;
 }
+
+.fashion__sub-title {
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 107px;
+  margin-bottom: 396px;
+}
+
+.fashion__description {
+  position: relative;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 107px;
+}
+
+.first__description {
+  margin-bottom: 4px;
+  margin-left: 133px;
+}
+
+.first__description::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: -14px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.second__description {
+  width: 218px;
+  margin-bottom: 14px;
+}
+
+.fashion__link {
+  margin-left: 107px;
+  color: #fff;
+}
+
+.fashion__vertical-text {
+  font-size: 14px;
+  color: black;
+  /* color: rgba(255, 255, 255, 0.5); */
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
