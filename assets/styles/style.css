@@ -135,12 +135,12 @@ input {
 
 .discount::before {
   top: 14px;
-  right: 31px;
+  right: 33px;
 }
 
 .discount::after {
   bottom: 14px;
-  right: 31px;
+  right: 33px;
 }
 
 .discount div {
@@ -175,6 +175,11 @@ input {
   color: #fff;
   margin-left: 107px;
   margin-bottom: 396px;
+}
+
+.fashion__text-box {
+  display: flex;
+  
 }
 
 .fashion__description {
