@@ -98,7 +98,6 @@ input {
 }
 
 .swiper {
-  padding: 17px 0 31px 0;
   border: 1px solid black;
   background-image: url("../img/fashion-1-448.webp");
   background-repeat: no-repeat;
@@ -208,18 +207,62 @@ input {
 }
 
 .fashion__link {
-  margin-left: 107px;
+  margin-left: 114px;
+  margin-bottom: 76px;
   color: #fff;
 }
 
 .fashion__vertical-text {
   position: absolute;
-  right: 100px;
-  bottom: 100px;
-  height: 500px;
+  right: 95px;
+  bottom: 120px;
+  height: 420px;
   font-size: 14px;
   text-orientation: mixed;
   color: rgba(255, 255, 255, 0.5);
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
+}
+
+.fashion__bottom-box {
+  position: relative;
+}
+
+.fashion__bottom-text {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.43em;
+  text-transform: uppercase;
+  color: #5c3c35;
+  margin-left: 165px;
+}
+
+.fashion__bottom-box::before,
+.fashion__bottom-box::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-color: #5c3c35;
+  border-radius: 50%;
+}
+
+.fashion__bottom-box::before {
+  left: 32px;
+  bottom: 43px;
+}
+
+.fashion__bottom-box::after {
+  left: 32px;
+  bottom: 21px;
+}
+
+.fashion__bottom-box div {
+  width: 11px;
+  height: 11px;
+  background-color: #5c3c35;
+  border-radius: 50%;
+  margin-left: 32px;
+  margin-bottom: 37px;
 }
