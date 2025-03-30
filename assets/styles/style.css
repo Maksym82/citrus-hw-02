@@ -76,7 +76,7 @@ input {
   padding: 0 20px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   [class*="__container"] {
     max-width: 768px;
     padding: 0 30px;
@@ -88,7 +88,7 @@ input {
     max-width: 1280px;
     padding: 0 30px;
   }
-}
+} */
 
 /* Main styles */
 
@@ -177,11 +177,6 @@ input {
   margin-bottom: 396px;
 }
 
-/* .fashion__text-box {
-  display: flex;
-
-} */
-
 .fashion__description {
   position: relative;
   font-style: italic;
@@ -218,9 +213,13 @@ input {
 }
 
 .fashion__vertical-text {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  height: 500px;
   font-size: 14px;
-  color: black;
-  /* color: rgba(255, 255, 255, 0.5); */
+  text-orientation: mixed;
+  color: rgba(255, 255, 255, 0.5);
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
 }
