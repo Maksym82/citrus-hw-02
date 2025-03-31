@@ -81,9 +81,9 @@ input {
     max-width: 768px;
     padding: 0 30px;
   }
-}
+} */
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   [class*="__container"] {
     max-width: 1280px;
     padding: 0 30px;
@@ -95,6 +95,10 @@ input {
 .fashion {
   padding: 50px 0;
   background-color: #ffffff;
+  background-image: url('../img/bg-fashion.png');
+  background-repeat: no-repeat;
+  background-size: 478px 655px;
+  background-position: bottom 50px right 85px;
 }
 
 .swiper {
