@@ -99,6 +99,7 @@ input {
   background-repeat: no-repeat;
   background-size: 478px 655px;
   background-position: bottom 50px right 85px;
+ 
 }
 
 .swiper {
@@ -107,10 +108,12 @@ input {
   background-repeat: no-repeat;
   background-size: 448px 657px;
   background-position: center;
+  max-width: 635px;
+  margin: 0 auto;
 }
 
 .swiper-slide {
-  width: 595px;
+  max-width: 595px;
   height: 842px;
 }
 
