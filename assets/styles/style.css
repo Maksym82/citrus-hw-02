@@ -95,19 +95,11 @@ input {
 .fashion {
   padding: 50px 0;
   background-color: #ffffff;
-  background-image: url('../img/bg-fashion.png');
-  background-repeat: no-repeat;
-  background-size: 478px 655px;
-  background-position: bottom 50px right 85px;
- 
 }
 
 .swiper {
   border: 1px solid black;
-  background-image: url("../img/fashion-1-448.webp");
-  background-repeat: no-repeat;
-  background-size: 448px 657px;
-  background-position: center;
+
   max-width: 635px;
   margin: 0 auto;
 }
@@ -115,6 +107,14 @@ input {
 .swiper-slide {
   max-width: 595px;
   height: 842px;
+}
+
+.fashion__swiper-slide {
+  margin: 0 auto;
+  background-image: url("../img/fashion-1-448.webp");
+  background-repeat: no-repeat;
+  background-size: 448px 657px;
+  background-position: center;
 }
 
 .discount {
@@ -168,6 +168,18 @@ input {
   font-size: 65px;
 }
 
+.fashion__bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 478px;
+  height: 655px;
+  background-image: url("../img/bg-fashion.png");
+  background-repeat: no-repeat;
+  background-size: 478px 655px;
+  z-index: -1;
+}
+
 .fashion__title {
   text-transform: uppercase;
   margin-left: 107px;
@@ -181,6 +193,9 @@ input {
   color: #fff;
   margin-left: 107px;
   margin-bottom: 396px;
+}
+
+.fashion__image-box {
 }
 
 .fashion__description {
