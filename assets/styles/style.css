@@ -2,6 +2,7 @@
 :root {
   --color-white: #fff;
   --color-main-first-card: #5c3c35;
+  --color-main-second-card: #6e171d;
   --color-vertical: rgba(255, 255, 255, 0.5);
 }
 
@@ -114,7 +115,7 @@ input {
   height: 842px;
 }
 
-.fashion__swiper-slide {
+.fashion__swiper-slide-1 {
   margin: 0 auto;
   background-image: url("../img/fashion-1-448.webp");
   background-repeat: no-repeat;
