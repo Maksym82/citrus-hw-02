@@ -141,12 +141,12 @@ input {
 
 .discount::before {
   top: 14px;
-  right: 33px;
+  right: 32px;
 }
 
 .discount::after {
   bottom: 14px;
-  right: 33px;
+  right: 32px;
 }
 
 .discount div {
@@ -167,6 +167,20 @@ input {
   font-weight: 900;
   font-size: 65px;
 }
+.fashion__line-box {
+  position: absolute;
+  top: 398px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fashion__bg-line {
+  width: 100%;
+  height: 41px;
+  background-color: #5c3c35;
+}
 
 .fashion__bg {
   position: absolute;
@@ -177,7 +191,7 @@ input {
   background-image: url("../img/bg-fashion.png");
   background-repeat: no-repeat;
   background-size: 478px 655px;
-  z-index: -1;
+  z-index: -3;
 }
 
 .fashion__title {
@@ -193,9 +207,6 @@ input {
   color: #fff;
   margin-left: 107px;
   margin-bottom: 396px;
-}
-
-.fashion__image-box {
 }
 
 .fashion__description {
