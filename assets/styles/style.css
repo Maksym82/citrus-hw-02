@@ -168,12 +168,12 @@ h6 {
 
 .discount::before {
   top: 17px;
-  right: 32px;
+  right: 31px;
 }
 
 .discount::after {
   bottom: 17px;
-  right: 32px;
+  right: 31px;
 }
 
 .discount div {
@@ -194,6 +194,19 @@ h6 {
 
 .discount-second div {
   background-color: var(--color-main-second-card);
+}
+
+.discount-third {
+  color: var(--color-main-third-card);
+}
+
+.discount-third::before,
+.discount-third::after {
+  background-color: var(--color-main-third-card);
+}
+
+.discount-third div {
+  background-color: var(--color-main-third-card);
 }
 
 .discount__text {
@@ -228,6 +241,10 @@ h6 {
 
 .second-line {
   background-color: var(--color-main-second-card);
+}
+
+.third-line {
+background-color: var(--color-main-third-card);
 }
 
 .fashion__bg {
@@ -346,17 +363,31 @@ h6 {
   margin-bottom: 37px;
 }
 
-.fashion__bottom-text-second {
-  color: var(--color-main-second-card);
-}
-
 .fashion__bottom-box-second::before,
 .fashion__bottom-box-second::after {
   background-color: var(--color-main-second-card);
 }
 
+.fashion__bottom-text-second {
+  color: var(--color-main-second-card);
+}
+
+
 .fashion__bottom-box-second div {
   background-color: var(--color-main-second-card);
+}
+
+.fashion__bottom-box-third::before,
+.fashion__bottom-box-third::after {
+  background-color: var(--color-main-third-card);
+}
+
+.fashion__bottom-text-third {
+  color: var(--color-main-third-card);
+}
+
+.fashion__bottom-box-third div {
+  background-color: var(--color-main-third-card);
 }
 
 
