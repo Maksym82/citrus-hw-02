@@ -104,20 +104,14 @@ input {
   background-color: var(--color-white);
 }
 
-.swiper {
-  border: 1px solid black;
-  /* max-width: 635px; */
-  /* margin: 0 auto; */
-}
-
 .swiper-slide {
   max-width: 595px;
-  height: 842px;
+  border: 1px solid black;
 }
 
 .fashion__img {
   position: absolute;
-  top: 110px;
+  bottom: 75px;
   right: 72px;
   width: 448px;
   height: 657px;
@@ -150,12 +144,12 @@ input {
 }
 
 .discount::before {
-  top: 14px;
+  top: 17px;
   right: 32px;
 }
 
 .discount::after {
-  bottom: 14px;
+  bottom: 17px;
   right: 32px;
 }
 
@@ -267,6 +261,9 @@ input {
 
 .fashion__bottom-box {
   position: relative;
+  display: flex;
+ 
+
 }
 
 .fashion__bottom-text {
@@ -291,7 +288,7 @@ input {
 
 .fashion__bottom-box::before {
   left: 32px;
-  bottom: 43px;
+  bottom: 53px;
 }
 
 .fashion__bottom-box::after {
