@@ -66,18 +66,26 @@ h6 {
 
 /* Container */
 [class*="__container"] {
-  max-width: 635px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 635px) {
+  [class*="__container"] {
+    max-width: 635px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+/* @media (min-width: 768px) {
   [class*="__container"] {
     max-width: 768px;
     margin: 0 auto;
     padding: 0 30px;
   }
-}
+} */
 
 @media (min-width: 1280px) {
   [class*="__container"] {
@@ -111,8 +119,7 @@ h6 {
 .fashion__img1 {
   position: absolute;
   bottom: 75px;
-  right: 72px;
-  width: 448px;
+  width: 290px;
   height: 657px;
   margin: 0 auto;
   background-image: url("../img/fashion-1-448.webp");
@@ -120,11 +127,17 @@ h6 {
   z-index: -1;
 }
 
+@media (min-width: 635px) {
+  .fashion__img1 {
+    right: 72px;
+    width: 448px;
+  }
+}
+
 .fashion__img2 {
   position: absolute;
   bottom: 75px;
-  right: 72px;
-  width: 448px;
+  width: 290px;
   height: 657px;
   margin: 0 auto;
   background-image: url("../img/fashion-2-448.webp");
@@ -132,16 +145,29 @@ h6 {
   z-index: -1;
 }
 
+@media (min-width: 635px) {
+  .fashion__img2 {
+    right: 72px;
+    width: 448px;
+  }
+}
+
 .fashion__img3 {
   position: absolute;
   bottom: 75px;
-  right: 72px;
-  width: 448px;
+  width: 290px;
   height: 657px;
   margin: 0 auto;
   background-image: url("../img/fashion-3-448.webp");
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+@media (min-width: 635px) {
+  .fashion__img3 {
+    right: 72px;
+    width: 448px;
+  }
 }
 
 .discount {
@@ -150,9 +176,15 @@ h6 {
   align-items: center;
   justify-content: center;
   color: var(--color-main-first-card);
-  gap: 36px;
-  margin-left: 148px;
-  margin-bottom: 55px;
+  gap: 20px;
+}
+
+@media (min-width: 635px) {
+  .discount {
+    gap: 36px;
+    margin-left: 148px;
+    margin-bottom: 55px;
+  }
 }
 
 .discount::before,
@@ -167,13 +199,27 @@ h6 {
 }
 
 .discount::before {
-  top: 17px;
-  right: 31px;
+  top: 9px;
+  right: 6px;
+}
+
+@media (min-width: 635px) {
+  .discount::before {
+    top: 17px;
+    right: 31px;
+  }
 }
 
 .discount::after {
-  bottom: 17px;
-  right: 31px;
+  right: 6px;
+  bottom: 8px;
+}
+
+@media (min-width: 635px) {
+  .discount::after {
+    bottom: 17px;
+    right: 31px;
+  }
 }
 
 .discount div {
@@ -212,14 +258,27 @@ h6 {
 .discount__text {
   font-weight: 600;
   font-size: 11px;
-  letter-spacing: 0.58em;
   text-transform: uppercase;
+  letter-spacing: 0.28em;
+}
+
+@media (min-width: 635px) {
+  .discount__text {
+    letter-spacing: 0.58em;
+  }
 }
 
 .discount__percent {
+  font-size: 45px;
   font-weight: 900;
-  font-size: 65px;
 }
+
+@media (min-width: 635px) {
+  .discount__percent {
+    font-size: 65px;
+  }
+}
+
 .fashion__line-box {
   position: absolute;
   top: 398px;
@@ -244,19 +303,21 @@ h6 {
 }
 
 .third-line {
-background-color: var(--color-main-third-card);
+  background-color: var(--color-main-third-card);
 }
 
-.fashion__bg {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 478px;
-  height: 655px;
-  background-image: url("../img/bg-fashion.png");
-  background-repeat: no-repeat;
-  background-size: 478px 655px;
-  z-index: -3;
+@media (min-width: 635px) {
+  .fashion__bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 478px;
+    height: 655px;
+    background-image: url("../img/bg-fashion.png");
+    background-repeat: no-repeat;
+    background-size: 478px 655px;
+    z-index: -3;
+  }
 }
 
 .fashion__title {
@@ -372,7 +433,6 @@ background-color: var(--color-main-third-card);
   color: var(--color-main-second-card);
 }
 
-
 .fashion__bottom-box-second div {
   background-color: var(--color-main-second-card);
 }
@@ -389,7 +449,6 @@ background-color: var(--color-main-third-card);
 .fashion__bottom-box-third div {
   background-color: var(--color-main-third-card);
 }
-
 
 .fashion__swiper-pagination {
   margin-top: 35px;
