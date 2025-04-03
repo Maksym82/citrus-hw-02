@@ -3,6 +3,7 @@
   --color-white: #fff;
   --color-main-first-card: #5c3c35;
   --color-main-second-card: #6e171d;
+  --color-main-third-card: #48322a;
   --color-vertical: rgba(255, 255, 255, 0.5);
 }
 
@@ -49,11 +50,6 @@ li {
   list-style: none;
 }
 
-button {
-  cursor: pointer;
-  background-color: inherit;
-}
-
 img {
   vertical-align: top;
 }
@@ -68,14 +64,6 @@ h6 {
   font-size: inherit;
 }
 
-button,
-input {
-  font-weight: inherit;
-  font-size: inherit;
-  color: inherit;
-  font-family: inherit;
-}
-
 /* Container */
 [class*="__container"] {
   max-width: 635px;
@@ -83,19 +71,21 @@ input {
   padding: 0 20px;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   [class*="__container"] {
     max-width: 768px;
+    margin: 0 auto;
     padding: 0 30px;
   }
-} */
+}
 
-/* @media (min-width: 1280px) {
+@media (min-width: 1280px) {
   [class*="__container"] {
     max-width: 1280px;
+    margin: 0 auto;
     padding: 0 30px;
   }
-} */
+}
 
 .first-color {
   color: var(--color-main-first-card);
@@ -109,6 +99,7 @@ input {
 
 .fashion {
   padding: 50px 0;
+  margin: 0 auto;
   background-color: var(--color-white);
 }
 
@@ -137,6 +128,18 @@ input {
   height: 657px;
   margin: 0 auto;
   background-image: url("../img/fashion-2-448.webp");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.fashion__img3 {
+  position: absolute;
+  bottom: 75px;
+  right: 72px;
+  width: 448px;
+  height: 657px;
+  margin: 0 auto;
+  background-image: url("../img/fashion-3-448.webp");
   background-repeat: no-repeat;
   z-index: -1;
 }
