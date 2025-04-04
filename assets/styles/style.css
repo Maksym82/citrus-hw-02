@@ -79,14 +79,6 @@ h6 {
   }
 }
 
-/* @media (min-width: 768px) {
-  [class*="__container"] {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 30px;
-  }
-} */
-
 @media (min-width: 1280px) {
   [class*="__container"] {
     max-width: 1280px;
@@ -113,7 +105,6 @@ h6 {
 
 .swiper-slide {
   max-width: 595px;
-  /* border: 1px solid black; */
 }
 
 .fashion__img1 {
@@ -444,11 +435,6 @@ h6 {
   position: relative;
   display: flex;
   gap: 20px;
-}
-
-@media (min-width: 635px) {
-  .fashion__bottom-box {
-  }
 }
 
 .fashion__bottom-text {
