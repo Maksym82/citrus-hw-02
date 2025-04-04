@@ -211,6 +211,12 @@ h6 {
   }
 }
 
+@media (min-width: 1280px) {
+  .discount::before {
+    right: 32px;
+  }
+}
+
 .discount::after {
   right: 12px;
   bottom: 8px;
@@ -220,6 +226,12 @@ h6 {
   .discount::after {
     bottom: 17px;
     right: 33px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .discount::after {
+    right: 32px;
   }
 }
 
@@ -478,6 +490,12 @@ h6 {
 .fashion__bottom-box::before {
   left: 0;
   bottom: 50px;
+}
+
+@media (min-width: 1280px) {
+  .fashion__bottom-box::before {
+    bottom: 53px;
+  }
 }
 
 @media (min-width: 635px) {

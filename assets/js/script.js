@@ -18,7 +18,7 @@ const swiper = new Swiper(".fashion-swiper", {
     },
     // when window width is >= 1440px
     1440: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
   },
