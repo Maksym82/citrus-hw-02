@@ -68,14 +68,14 @@ h6 {
 [class*="__container"] {
   max-width: 320px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 @media (min-width: 635px) {
   [class*="__container"] {
     max-width: 635px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
   }
 }
 
@@ -113,12 +113,12 @@ h6 {
 
 .swiper-slide {
   max-width: 595px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .fashion__img1 {
   position: absolute;
-  bottom: 75px;
+  bottom: 65px;
   width: 290px;
   height: 657px;
   background-image: url("../img/fashion-1-448.webp");
@@ -201,25 +201,25 @@ h6 {
 
 .discount::before {
   top: 9px;
-  right: 6px;
+  right: 12px;
 }
 
 @media (min-width: 635px) {
   .discount::before {
     top: 17px;
-    right: 31px;
+    right: 33px;
   }
 }
 
 .discount::after {
-  right: 6px;
+  right: 12px;
   bottom: 8px;
 }
 
 @media (min-width: 635px) {
   .discount::after {
     bottom: 17px;
-    right: 31px;
+    right: 33px;
   }
 }
 
@@ -430,17 +430,21 @@ h6 {
 
 @media (min-width: 635px) {
   .fashion__bottom-box {
-   
   }
 }
 
 .fashion__bottom-text {
   font-weight: 600;
   font-size: 11px;
-  letter-spacing: 0.43em;
+  letter-spacing: 0.33em;
   text-transform: uppercase;
   color: var(--color-main-first-card);
-  margin-left: 20px;
+}
+
+@media (min-width: 635px) {
+  .fashion__bottom-text {
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 635px) {
@@ -466,13 +470,26 @@ h6 {
 }
 
 .fashion__bottom-box::before {
-  left: 32px;
-  bottom: 53px;
+  left: 0;
+  bottom: 50px;
+}
+
+@media (min-width: 635px) {
+  .fashion__bottom-box::before {
+    left: 32px;
+  }
 }
 
 .fashion__bottom-box::after {
-  left: 32px;
-  bottom: 21px;
+  left: 0;
+  bottom: 24px;
+}
+
+@media (min-width: 635px) {
+  .fashion__bottom-box::after {
+    left: 32px;
+    bottom: 21px;
+  }
 }
 
 .fashion__bottom-box div {
