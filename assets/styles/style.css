@@ -136,7 +136,7 @@ h6 {
 
 .fashion__img2 {
   position: absolute;
-  bottom: 75px;
+  bottom: 65px;
   width: 290px;
   height: 657px;
   background-image: url("../img/fashion-2-448.webp");
@@ -154,7 +154,7 @@ h6 {
 
 .fashion__img3 {
   position: absolute;
-  bottom: 75px;
+  bottom: 65px;
   width: 290px;
   height: 657px;
   background-image: url("../img/fashion-3-448.webp");
@@ -307,17 +307,22 @@ h6 {
   background-color: var(--color-main-third-card);
 }
 
+.fashion__bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 270px;
+  height: 655px;
+  background-image: url("../img/bg-fashion.png");
+  background-repeat: no-repeat;
+  z-index: -3;
+}
+
 @media (min-width: 635px) {
   .fashion__bg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     width: 478px;
     height: 655px;
-    background-image: url("../img/bg-fashion.png");
-    background-repeat: no-repeat;
     background-size: 478px 655px;
-    z-index: -3;
   }
 }
 
@@ -335,6 +340,7 @@ h6 {
 
 .fashion__title img {
   width: 275px;
+  margin-left: 6px;
 }
 
 .fashion__sub-title {
@@ -533,8 +539,14 @@ h6 {
 }
 
 .fashion__swiper-pagination {
-  margin-top: 35px;
   position: relative;
+  margin-top: 10px;
+}
+
+@media (min-width: 635px) {
+  .fashion__swiper-pagination {
+    margin-top: 35px;
+  }
 }
 
 .swiper-pagination-bullet {
